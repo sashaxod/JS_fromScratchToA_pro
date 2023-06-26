@@ -21,7 +21,11 @@ html {
 
 body {
    font-family: 'georgia', sans-serif;
-   font-size: 20px;
+   font-size: 18px;
+}
+
+code {
+   font-size: 14px;
 }
 
 ul {
@@ -54,6 +58,14 @@ h2 span {
    padding-right: 20px;
 }
 
+h3 {
+   font-size: 28px;
+}
+
+h4 {
+   font-size: 22px;
+}
+
 
 .article {
 
@@ -63,9 +75,69 @@ h2 span {
    max-width: 800px;
    padding: 0 15px;
    margin: 0 auto;
+   
+}
+
+.page {
+   margin: 20px;
+   padding: 20px 20px;
    background-color: antiquewhite;
 }
 
 .paragraph {
    
+}
+
+
+.pay-attention {
+   display: flex;
+   justify-content: space-between;
+}
+
+.pay-attention_img img{
+   width: 60px;
+   height: 60px;
+}
+
+.page_header-left {
+   display: flex;
+   align-items: center;
+}
+
+.page_header_left-number {
+   font-weight: bold;
+}
+
+.page_header_left-text {
+   padding-left: 50px;
+   font-size: 16px;
+}
+
+.page_header_left-text span {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.page_header_right {
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+
+.page_header_right-text {
+   padding-right: 50px;
+   font-size: 16px;
+}
+
+.page_header_right-number {
+   font-weight: bold;
+}
+
+.page_header_left-text span {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.bold {
+   font-weight: bold;
 }
